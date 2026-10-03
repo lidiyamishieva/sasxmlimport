@@ -1,0 +1,24 @@
+Package: sasxmlimport
+Title: Import OpenClinica SAS XML Exports
+Version: 0.0.0.9000
+Authors@R:
+    person(
+        given = "Lidiya",
+        family = "Mishieva",
+        email = "232917551+lidiyamishieva@users.noreply.github.com",
+        role = c("aut", "cre")
+    )
+URL: https://github.com/lidiyamishieva/sasxmlimport
+BugReports: https://github.com/lidiyamishieva/sasxmlimport/issues
+Description: Imports OpenClinica SAS Data and Syntax exports from
+    SAS_DATA.xml and SAS_MAP.xml files, with optional support for value
+    labels defined in SAS_FORMAT.sas.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    xml2
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
